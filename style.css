@@ -49,15 +49,22 @@ nav ul {
 }
 
 nav li {
+    background-color: #1c110a;
     display: flex;
     margin-right: 1rem;
     gap: 1rem;
 }
 
 nav a {
-    color:#1c110a;
+    color:#afd2e9;
     text-decoration: none;
     padding: 0.2rem 0.4rem;
+}
+
+.important {
+    color: #c8ffbe;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
 }
 
 nav a:hover {
@@ -70,6 +77,10 @@ body{
 
     animation: background-shift linear both;
     animation-timeline: scroll(root block);
+}
+
+article p{
+    color: #2660a4;
 }
 
 article {
