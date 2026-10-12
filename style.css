@@ -16,6 +16,8 @@ nav li {
 }
 
 body{
+    font-family: Georgia, sans-serif;
+
     animation: background-shift linear both;
     animation-timeline: scroll(root block);
 }
