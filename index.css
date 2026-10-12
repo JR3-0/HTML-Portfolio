@@ -14,3 +14,20 @@ nav li {
     display: inline-block;
     margin-right: 1rem;
 }
+
+body{
+    animation: background-shift linear both;
+    animation-timeline: scroll(root block);
+}
+
+@keyframes background-shift {
+    0% {
+        background-color: #afd2e9;
+    }
+    50% {
+        background-color: #2660a4;
+    }
+    100% {
+        background-color: #2660a4;
+    }
+}
