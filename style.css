@@ -47,9 +47,8 @@ main h1 {
     width: fit-content;
 }
 
-section p {
+main p {
     background-color: white;
-    padding: fill;
     border-radius: 800px;
     border-color: #e9b44c;
     line-height: 1.5;
