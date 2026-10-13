@@ -47,9 +47,9 @@ main h1 {
     width: fit-content;
 }
 
-main p {
+#about p {
     background-color: white;
-    border-radius: 800px;
+    border-radius: 0px;
     border-color: #e9b44c;
     line-height: 1.5;
 }
