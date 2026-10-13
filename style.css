@@ -18,6 +18,11 @@ footer {
     padding: 1rem 2rem;
 }
 
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
 .highlight {
     color: #c8ffbe;
     padding: 0.2rem 0.4rem;
@@ -40,6 +45,14 @@ main h1 {
     padding: 0.75rem 0.1rem;
     border-radius: 8px;
     width: fit-content;
+}
+
+section p {
+    background-color: white;
+    padding: fill;
+    border-radius: 800px;
+    border-color: #e9b44c;
+    line-height: 1.5;
 }
 
 nav ul {
@@ -72,6 +85,17 @@ nav a:hover {
     color: #e9b44c;
 }
 
+address:hover {
+    background-color: #1c110a;
+    font-style: italic;
+    color: #afd2e9;
+}
+
+address {
+    font-style: normal;
+    line-height: 2.0;
+}
+
 body{
     font-family: Georgia, sans-serif;
 
@@ -100,7 +124,7 @@ article h3 {
         background-color: #afd2e9;
     }
     50% {
-        background-color: #2660a4;
+        background-color: #5286c2;
     }
     100% {
         background-color: #2660a4;
